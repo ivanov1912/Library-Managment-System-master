@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.card {
+    background-color: #f8f9fa !important;
+}
+
+.dropdown button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-item{
+    font-size: .9rem;
+}

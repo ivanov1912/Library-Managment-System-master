@@ -1,0 +1,19 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/rows.js": "/js/rows.js",
+    "/js/authors.js": "/js/authors.js",
+    "/js/books.js": "/js/books.js",
+    "/js/genders.js": "/js/genders.js",
+    "/js/genres.js": "/js/genres.js",
+    "/js/roles.js": "/js/roles.js",
+    "/js/users.js": "/js/users.js",
+    "/js/assigned_books.js": "/js/assigned_books.js",
+    "/js/assigned_users.js": "/js/assigned_users.js",
+    "/js/assigned-authors.js": "/js/assigned-authors.js",
+    "/js/user-roles.js": "/js/user-roles.js",
+    "/js/mybooks.js": "/js/mybooks.js",
+    "/js/messages.js": "/js/messages.js",
+    "/js/sidebar.js": "/js/sidebar.js",
+    "/js/comments.js": "/js/comments.js",
+    "/css/app.css": "/css/app.css"
+}

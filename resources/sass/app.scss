@@ -1,0 +1,320 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background: linear-gradient(to bottom, #fefefe 0, #e9eef3 100%);
+    font-size: 0.8rem;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#header-dropdown span {
+    font-size: 0.8rem !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    text-decoration: none;
+    background-color: #e9ecef !important;
+}
+
+#waiting-users-wrapper {
+    background: linear-gradient(to right, rgb(242, 153, 74), rgb(242, 201, 76));
+}
+
+#approved-users-wrapper {
+    background: linear-gradient(
+        to right,
+        rgb(178, 254, 250),
+        rgb(14, 210, 247)
+    );
+}
+
+#assigned-books-wrapper {
+    background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
+}
+
+#genders-wrapper {
+    background: linear-gradient(
+        to right,
+        rgb(67, 198, 172),
+        rgb(248, 255, 174)
+    );
+}
+#genres-books-wrapper {
+    background: linear-gradient(
+        to right,
+        rgb(103, 178, 111),
+        rgb(76, 162, 205)
+    );
+}
+#genres-authors-wrapper {
+    background: linear-gradient(to right, rgb(192, 36, 37), rgb(240, 203, 53));
+}
+#comments-wrapper {
+    background: linear-gradient(to right, rgb(228, 58, 21), rgb(230, 82, 69));
+}
+#readers-wrapper {
+    background: linear-gradient(to right, rgb(255, 78, 80), rgb(249, 212, 35));
+}
+
+.card-form {
+    box-shadow: none;
+}
+
+.card-form .card-header {
+    background: #fff !important;
+}
+
+.card-form .card-footer {
+    background: #fff !important;
+}
+
+.dashboard-title {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+.warning-user-card {
+    font-weight: 400;
+    font-size: 1rem !important;
+    display: block;
+}
+
+.info-box-text {
+    font-weight: 400;
+}
+
+table {
+    border-collapse: none !important;
+}
+// table images
+
+#user-roles-admin img{
+    width: 60px !important;
+    border-radius: 0px !important;
+    object-fit: cover;
+    height:60px;
+    box-shadow: 10px 10px 2px -4px #b2b2b2;
+}
+
+#assigned-users img{
+    width: 60px !important;
+    border-radius: 0px !important;
+    object-fit: cover;
+    height:60px;
+    box-shadow: 10px 10px 2px -4px #b2b2b2;
+}
+
+#userRoles img{
+    width: 60px !important;
+    border-radius: 0px !important;
+    object-fit: cover;
+    height:60px;
+    box-shadow: 10px 10px 2px -4px #b2b2b2;
+}
+
+#approvedUsers img{
+    width: 60px !important;
+    border-radius: 0px !important;
+    object-fit: cover;
+    height:60px;
+    box-shadow: 10px 10px 2px -4px #b2b2b2;
+}
+
+#waitingUsers img{
+    width: 60px !important;
+    border-radius: 0px !important;
+    object-fit: cover;
+    height:60px;
+    box-shadow: 10px 10px 2px -4px #b2b2b2;
+}
+
+table img {
+    width: 50px !important;
+    border-radius: 0px !important;
+    object-fit: contain;
+    height: auto;
+    box-shadow: 10px 10px 2px -4px #b2b2b2;
+}
+
+form img {
+    width: 50px !important;
+    border-radius: 0px !important;
+    object-fit: contain;
+    height: auto;
+    box-shadow: 10px 10px 2px -4px #b2b2b2;
+}
+
+#userTable img{
+    width: 60px !important;
+    border-radius: 0px !important;
+    object-fit: cover;
+    height:60px;
+    box-shadow: 10px 10px 2px -4px #b2b2b2;
+}
+
+// table images
+input,
+select,
+option {
+    background-color: white !important;
+}
+
+.card-comments {
+    border-bottom: 0;
+    box-shadow: none !important;
+}
+
+textarea {
+    background-color: white !important;
+}
+
+.library-cms {
+    text-decoration: none !important;
+}
+
+#userLink {
+    font-size: 1rem !important;
+}
+
+form label::after {
+    color: #d00 !important;
+    content: "*" !important;
+    margin-left: 2px !important;
+    position: absolute !important;
+}
+
+.profile label::after {
+    color: #d00 !important;
+    content: "*" !important;
+    margin-left: 2px !important;
+    position: absolute !important;
+}
+
+.card-form .card-footer {
+    display: none !important;
+}
+
+.card-default {
+    box-shadow: 4px 6px 10px -3px #bfc9d4 !important;
+}
+
+.shadow-none {
+    box-shadow: 4px 6px 10px -3px #bfc9d4 !important ;
+    border: 1px solid #e0e6ed !important;
+}
+
+//datatable styles
+
+.table-responsive {
+    padding: 1rem !important;
+}
+
+table.dataTable thead:first-of-type::after {
+    content: "\200C";
+    display: block;
+    line-height: 1.2rem;
+}
+
+table.dataTable thead:first-of-type tr {
+    box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+table.dataTable thead:first-of-type th {
+    background-color: #f3f3f3;
+    border-bottom: none;
+    border-top: none;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+table.dataTable thead:first-of-type th:first-of-type {
+    border-radius: 1rem 0 0 1rem;
+    padding-left: 1rem;
+}
+table.dataTable thead:first-of-type th:last-of-type {
+    border-radius: 0 1rem 1rem 0;
+    padding-right: 1rem;
+}
+
+.comment-messages {
+    padding: 0 !important;
+}
+
+.logout-wrapper {
+    padding: 0.1rem 1em !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    //   border: 1px solid green;
+    // -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.user-panel-info-div{
+    position: absolute;
+    left: 101px;
+    bottom: 5px;
+};
+
+.fa-user-tie{
+    font-size: 1rem !important;
+}
+
+table .fa-user-lock{
+    font-size: 1rem !important;
+}
+
+table .fa-mercury{
+    font-size: 1rem !important;
+}
+
+table .fa-mars{
+    font-size: 1rem !important;
+}
+
+div.scrollable {
+    width: 500px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: auto !important;
+    height: 8vh;
+}
+
+.user-panel img{
+    height: 40PX !important;
+}
+
+.online-icon{
+    text-shadow: 0px 0px 4px green !important;
+}
+
+.offline-icon{
+    text-shadow: 0px 0px 4px red !important;
+}
